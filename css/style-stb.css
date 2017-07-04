@@ -14,6 +14,8 @@ body {
   margin-bottom: 5%;
   padding-bottom: 30%;
   padding-left: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   color: white;
   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -25,13 +27,16 @@ body {
   font-size: 10;
   letter-spacing: 2px;
   color: black;
-  background-color: rgb(218, 218, 218);
+  background-color: rgb(218, 218, 218) !important;
   border-bottom: 7px solid rgb(63, 68, 78);
   margin-bottom: 0px;
   padding-right: 10%;
   height: 110px;
+  z-index: 200;
 }
-
+.navbar-collapse.in {
+  background-color: rgb(218, 218, 218);
+}
 .navbar-right {
   margin-top: 53px;
 }
@@ -47,6 +52,9 @@ body {
 .section h3 {
   text-align: center;
   letter-spacing: 4px;
+  margin-bottom: 14px;
+  padding-top: 6px;
+
 }
 .section {
   background-position: 10% 50%;
@@ -54,14 +62,14 @@ body {
   background-repeat: no-repeat;
 }
 #main {
-  background-image: url(images/main.png);
+  background-image: url(../images/main.png);
 }
 #contact {
-  background-image: url(images/contact.png);
+  background-image: url(../images/contact.png);
 }
 #news {
-  background-image: url(images/news.png);
+  background-image: url(../images/news.png);
 }
 #about {
-  background-image: url(images/about.png);
+  background-image: url(../images/about.png);
 }
